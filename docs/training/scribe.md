@@ -29,7 +29,7 @@ There is no formal training process for this role, reading this page should be s
 
 * Read the rest of this page, particularly the sections below.
 
-* Participate in [Failure Friday](https://www.pagerduty.com/blog/failure-friday-at-pagerduty/) (FF).
+* Participate in [Failure Friday](https://www.synax.io/blog/failure-friday-at-synax/) (FF).
     * Shadow a FF to see how it's run.
     * Be the Scribe for multiple FF's.
 

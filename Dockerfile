@@ -7,10 +7,10 @@ RUN sudo pip install mkdocs
 RUN sudo pip install pymdown-extensions
 RUN sudo pip install pygments
 
-# Install the PagerDuty theme.
+# Install the Synax theme.
 WORKDIR /tmp
-RUN git clone https://github.com/pagerduty/mkdocs-theme-pagerduty
-RUN cd mkdocs-theme-pagerduty && sudo python3 setup.py install
+RUN git clone https://github.com/synax/mkdocs-theme-synax
+RUN cd mkdocs-theme-synax && sudo python3 setup.py install
 
 # Set our working directory and user
 WORKDIR /docs

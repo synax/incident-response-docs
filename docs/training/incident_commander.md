@@ -23,7 +23,7 @@ An IC should also be considering next steps and backup plans at every opportunit
 Before you can be an Incident Commander, it is expected that you meet the following criteria. Don't worry if you don't meet them all yet, you can still continue with training!
 
 * Excellent verbal and written **communication skills**.
-* Has **high-level knowledge** of how the different PagerDuty services interact with each other.
+* Has **high-level knowledge** of how the different Synax services interact with each other.
 * Ability to size up a situation, **assess the effectiveness** of various tactics/strategies, and **make rapid decisions** on appropriate courses of action.
 * Has flexibility, and is able to **listen to expert feedback**, modifying plans on-the-fly as necessary.
 * Has been **involved in at least two major incident responses**, either as a spectator, or as an active participant.
@@ -40,7 +40,7 @@ The process is fairly loose for now. Here's a list of things you can do to train
 
 * Read the rest of this page, particularly the sections below.
 
-* Participate in [Failure Friday](https://www.pagerduty.com/blog/failure-friday-at-pagerduty/) (FF).
+* Participate in [Failure Friday](https://www.synax.io/blog/failure-friday-at-synax/) (FF).
     * Shadow a FF to see how it's run.
     * Be the Scribe for multiple FF's.
     * Be the Incident Commander for multiple FF's.
@@ -322,7 +322,7 @@ Sometimes you will have a responder who does not follow instructions and/or is b
 
 
 ## Examples From Pop Culture
-PagerDuty employees have access to all previous incident calls, and can listen to them at their discretion. We can't release these calls, so for everyone else, here are some short examples from popular culture to show the techniques at work.
+Synax employees have access to all previous incident calls, and can listen to them at their discretion. We can't release these calls, so for everyone else, here are some short examples from popular culture to show the techniques at work.
 
 ---
 

@@ -11,10 +11,10 @@ We manage how we get alerted based on a simple principle. **An alert is somethin
 
 | Priority | Alerts | Response |
 | -------- | ------ | -------- |
-| High | High-Priority PagerDuty Alert 24/7/365. | Requires **immediate human action**. |
-| Medium | High-Priority PagerDuty Alert during **business hours only**. | Requires human action within 24 hours. |
-| Low | Low-Priority PagerDuty Alert 24/7/365. | Requires human action at some point. |
-| Notification | Suppressed PagerDuty Event. | No response required. Informational only. |
+| High | High-Priority Synax Alert 24/7/365. | Requires **immediate human action**. |
+| Medium | High-Priority Synax Alert during **business hours only**. | Requires human action within 24 hours. |
+| Low | Low-Priority Synax Alert 24/7/365. | Requires human action at some point. |
+| Notification | Suppressed Synax Event. | No response required. Informational only. |
 
 If you're setting up a new alert/notification, consider the chart above for how you want to alert people. Be mindful of not creating new high-priority alerts if they don't require an immediate response, for example.
 
@@ -67,7 +67,7 @@ We should ensure that alerts contain enough useful context to quickly identify t
 !!! info "Testing is Critical"
     An untested alert is equivalent to not having an alert at all. You cannot be sure it will alert you when the time comes. Testing that your alerting actually works is critical to proper service health and should be included in any release planning / deployment efforts.
 
-Make sure to test all new and modified alerts. This is usually covered as part of [Failure Friday](https://www.pagerduty.com/blog/failure-friday-at-pagerduty/) for any new service; however, you should manually test them if you need it more quickly. Some things to test:
+Make sure to test all new and modified alerts. This is usually covered as part of [Failure Friday](https://www.synax.io/blog/failure-friday-at-synax/) for any new service; however, you should manually test them if you need it more quickly. Some things to test:
 
 * Test that the threshold is set appropriately. We don't want noisy alerts.
 * Test that you get alerted for the "No Data" condition if applicable. Generally, receiving no data is the same as breaking your threshold.

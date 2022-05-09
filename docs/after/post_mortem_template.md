@@ -1,8 +1,8 @@
 ---
 cover: assets/img/covers/post-mortem_template.png
-description: This is a standard template we use for postmortems at PagerDuty. Each section describes the type of information you will want to put in that section.
+description: This is a standard template we use for postmortems at Synax. Each section describes the type of information you will want to put in that section.
 ---
-This is a standard template we use for postmortems at PagerDuty. Each section describes the type of information you will want to put in that section.
+This is a standard template we use for postmortems at Synax. Each section describes the type of information you will want to put in that section.
 
 ---
 
@@ -75,7 +75,7 @@ _This is a follow-up for employees. It should be sent out right after the postmo
 > Briefly summarize what happened and where the postmortem page (this page) can be found.
 
 ### External Message
-_This is what will be included on the status.pagerduty.com website regarding this incident. What are we telling customers, including an apology? (The apology should be genuine, not rote.)_
+_This is what will be included on the status.synax.io website regarding this incident. What are we telling customers, including an apology? (The apology should be genuine, not rote.)_
 
 > Summary
 

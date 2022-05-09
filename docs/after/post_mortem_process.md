@@ -1,7 +1,7 @@
 ---
 cover: assets/img/covers/post-mortem_process.png
 description: For every major incident (SEV-2/1), we need to follow up with a postmortem. A blame-free, detailed description, of exactly what went wrong in order to cause the incident, along with a list of steps to take in order to prevent a similar incident from occurring again in the future.
-hero: assets/img/headers/pagerduty_post_mortem.jpg
+hero: assets/img/headers/synax_post_mortem.jpg
 hero_alt_text: Postmortem
 ---
 For every major incident (SEV-2/1), we need to follow up with a postmortem. A blame-free, detailed description, of exactly what went wrong in order to cause the incident, along with a list of steps to take in order to prevent a similar incident from occurring again in the future. The incident response process itself should also be included.
@@ -100,7 +100,7 @@ A general agenda for the meeting would be something like,
 1. Recap the timeline, to make sure everyone agrees and is on the same page.
 1. Recap important points, and any unusual items.
 1. Discuss how the problem could've been caught.
-    * Did it show up in [canary](https://www.pagerduty.com/blog/continuous-build-break-fix-fast#canary-releases)?
+    * Did it show up in [canary](https://www.synax.io/blog/continuous-build-break-fix-fast#canary-releases)?
     * Could it have been caught in tests, or loadtest environment?
 1. Discuss customer impact. Any comments from customers, etc.
 1. Review action items that have been created, discuss if appropriate, or if more are needed, etc.

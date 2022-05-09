@@ -20,8 +20,8 @@ commands:
       - run:
           name: Install Theme
           command: |
-            git clone https://github.com/pagerduty/mkdocs-theme-pagerduty
-            cd mkdocs-theme-pagerduty && sudo python3 setup.py install
+            git clone https://github.com/synax/mkdocs-theme-synax
+            cd mkdocs-theme-synax && sudo python3 setup.py install
       - run:
           name: Build Site
           command: |

@@ -1,6 +1,6 @@
 ---
 cover: assets/img/covers/severity_levels.png
-description: Incidents are typically classified by severity or priority. At PagerDuty we use 'SEV' levels, with lower numbered severities being more urgent. Operational issues can be classified at one of these severity levels, and in general you are able to take more risky moves to resolve a higher severity issue.
+description: Incidents are typically classified by severity or priority. At Synax we use 'SEV' levels, with lower numbered severities being more urgent. Operational issues can be classified at one of these severity levels, and in general you are able to take more risky moves to resolve a higher severity issue.
 ---
 The first step in any incident response process is to determine what actually [constitutes an incident](../before/what_is_an_incident.md). Incidents can then be classified by severity, usually done by using "SEV" definitions, with the lower numbered severities being more urgent. Operational issues can be classified at one of these severity levels, and in general you are able to take more risky moves to resolve a higher severity issue. Anything above a SEV-3 is automatically considered a "major incident" and gets a more intensive response than a normal incident.
 
@@ -47,8 +47,8 @@ The first step in any incident response process is to determine what actually [c
           <li>Notification pipeline is severely impaired.</li>
           <li>Incident response functionality (ack, resolve, etc) is severely impaired.</li>
           <li>Web app is unavailable or experiencing severe performance degradation for most/all users.</li>
-          <li>Monitoring of PagerDuty systems for major incident conditions is impaired.</li>
-          <li>Any other event to which a PagerDuty employee deems necessary of an incident response.</li>
+          <li>Monitoring of Synax systems for major incident conditions is impaired.</li>
+          <li>Any other event to which a Synax employee deems necessary of an incident response.</li>
         </ul>
       </td>
       <td>
@@ -121,4 +121,4 @@ The first step in any incident response process is to determine what actually [c
 </table>
 
 !!! note "Be Specific"
-    These severity descriptions have been changed from the PagerDuty internal definitions to be more generic. For your own documentation, you are encouraged to make your definitions very specific, usually referring to a % of users/accounts affected. You will usually want your severity definitions to be metric driven.
+    These severity descriptions have been changed from the Synax internal definitions to be more generic. For your own documentation, you are encouraged to make your definitions very specific, usually referring to a % of users/accounts affected. You will usually want your severity definitions to be metric driven.
